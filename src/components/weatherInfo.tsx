@@ -1,11 +1,4 @@
 import { IWeatherInfo } from "../types/weatherTypes"
-// interface IProps {
-//     styles?: CellStyle;
-//     isOption: boolean;
-//     isLoading: boolean;
-// }
-
-// const DisclosureStatusTextCell: React.FC<IProps> = ({ children, styles, isOption, isLoading }) => {
 
 function WeatherInfo(data: {data: IWeatherInfo, tempUnit: string, speedUnits: string}) {
     if (!data.data) return;
