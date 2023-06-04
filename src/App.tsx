@@ -1,11 +1,9 @@
 import './App.css'
-import Wrapper from './components/wrrapper';
+import WeatherAppContainer from './containers/WeatherAppContainer';
 
 function App() {
   return (
-    <>
-      <Wrapper></Wrapper>
-    </>
+    <WeatherAppContainer/>
   )
 }
 
